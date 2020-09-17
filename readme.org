@@ -1,0 +1,27 @@
+#+title: Carleton SYSC3010 Lab Submissions
+This repository contains my lab submissions for SYSC3010 Fall 2020
+
+* Commit Style
+
+#+BEGIN_SRC
+type: subject
+[body]
+[footer]
+#+END_SRC
+
+Use an imperative tone to describe what a commit does, rather than what it did.
+For example, use change; not changed or changes
+
+Line length <= 72 characters
+
+The subject should be no greater than 50 characters, should begin with a capital letter and not end with punctuation
+
+** Types
+- feat: a new feature
+- fix: a bug fix
+- docs: changes to documentation
+- style: formatting, missing semi colons, etc; no code change
+- refactor: refactoring production code
+- test: adding tests, refactoring test; no production code change
+- chore:updating build tasks, package manager configs, etc; no
+  production code change
